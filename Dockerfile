@@ -22,7 +22,6 @@ COPY --from=ui /ui/dist frontend/dist
 # Run as a non-root user; /data holds the SQLite file and must be a volume
 RUN useradd --system --uid 1000 app && mkdir /data && chown app:app /data
 USER app
-VOLUME /data
 
 WORKDIR /app/backend
 EXPOSE 8000
