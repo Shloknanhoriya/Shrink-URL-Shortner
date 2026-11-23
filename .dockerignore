@@ -1,0 +1,14 @@
+**/node_modules
+**/dist
+**/.venv
+**/__pycache__
+**/.pytest_cache
+*.db
+.git
+.gitignore
+Dockerfile
+.dockerignore
+README.md
+*.zip
+backend/test_*.py
+frontend/src/**/*.test.jsx
