@@ -1,5 +1,7 @@
 # Shrink — URL Shortener
 
+https://shrink-url-shortner.up.railway.app/
+
 A small full-stack URL shortener: **FastAPI + SQLite** backend, **React + Vite** frontend.
 
 ## Features
